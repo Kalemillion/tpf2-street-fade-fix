@@ -48,24 +48,23 @@ nothing needed on other multiplayer peers.
 ## Install
 
 Copy `street_fade_fix_1` into `%APPDATA%\Transport Fever 2\mods\` (or subscribe
-on the Workshop / mod.io once published) and enable it for the game.
+on mod.io once published) and enable it for the game.
 
 ## Languages
 
-The description in the mod list is translated into English, French, German,
-Spanish, Italian, Dutch, Polish, Czech, Russian, Ukrainian, Turkish, Brazilian
-Portuguese, Japanese, Korean and Simplified and Traditional Chinese
-(`street_fade_fix_1/strings.lua`). The name stays "Street Fade Fix" in every
-language. Apart from English and French, the translations were machine-written
-and have not been reviewed by native speakers: corrections are welcome. A new
-language is one more table in `strings.lua`, keyed by the code TpF2 uses
-(`pt_BR`, `zh_CN`, ...); `python tools/check_strings.py` checks that the files
-load, that every language has its description, and that no code is mistyped.
+The description in the mod list is translated into all 13 vanilla languages
+(English, French, German, Spanish, Italian, Dutch, Polish, Russian, Brazilian
+Portuguese, Japanese, Korean, Simplified and Traditional Chinese) + Czech,
+Ukrainian and Turkish. The name stays "Street Fade Fix" in every language. Apart
+from English and French, the translations were machine-written and have not been
+reviewed by native speakers: corrections are welcome. `python tools/check_strings.py`
+checks that the files load, that every language has its description, and that no code
+is mistyped.
 
 ## Rebuilding the shaders
 
 The shipped shaders are the game's own files with one statement changed. To
-regenerate them from an installation (for example after a game update):
+regenerate them from an installation:
 
 ```
 python tools/build_mod.py --game "<Transport Fever 2 folder>"
