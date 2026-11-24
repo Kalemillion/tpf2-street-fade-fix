@@ -76,6 +76,8 @@ the same game version as Steam build 35924.
 
 ## Licence
 
-`tools/build_mod.py`, `mod.lua`, `strings.lua` and this README: MIT. The shader
-files are Urban Games' shaders, redistributed modified as is customary for
-Transport Fever 2 shader mods; all rights to the original code remain theirs.
+[MIT](LICENSE) for `tools/build_mod.py`, `tools/check_strings.py`, `mod.lua`,
+`strings.lua` and this README. **The licence does not cover the shader files** in
+`street_fade_fix_1/res/shaders2`: they are Urban Games' shaders, each with one
+statement changed, redistributed modified as is customary for Transport Fever 2
+shader mods; all rights to the original code remain theirs.
